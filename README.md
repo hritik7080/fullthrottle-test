@@ -7,9 +7,9 @@ All the data can be viewed with a REST API in json format.
 Start by cloning the reposirtory.
 <pre>git clone https://github.com/hritik7080/fullthrottle-test.git</pre>
 Change your working directory.
-<pre>cd fullthrottle-test<pre>
+<pre>cd fullthrottle-test</pre>
 Then intsall all the required libraries with following command.
-<pre>pip install -r requirements.txt<pre>
+<pre>pip install -r requirements.txt</pre>
 
 
 
