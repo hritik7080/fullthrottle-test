@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'toal4*=^#=#9t+f#4d++h97d9g+we2()5c_80ni3%mcpv*67j-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['fullthrottl-test.herokuapp.com']
 
