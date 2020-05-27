@@ -23,7 +23,7 @@ To get all the data stored in the Database in the json, use following API with g
 <pre>http://127.0.0.1:8000/data/getdata/</pre>
 You can open this link directly on browser or use postman o check the api.
 
-### From my hosted app
+### Check my hosted app
 <pre>https://fullthrottl-test.herokuapp.com/data/getdata/</pre>
 Just open this link on browser or postman to check my hosted django appliation.<br>
 On postman use get request only.
