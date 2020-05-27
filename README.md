@@ -14,7 +14,7 @@ Now you have all the dependencies intalled in you system for this projet.<br>
 By default the database may be empty. So you can add some dummy data with a custom management command.<br>
 <pre>python manage.py populate_database 10</pre>
 This will add 10 values in the Users model. For each user program will create 3 values in ActivityPeriod for start_time and end_time. That means, when you create 10 values for Users model the program will create 30 values for ActivityPeriod model. Start time and end time may not be meaningful as they were generated randomly.
-#### The above command deletes all the previous data and added new data to the database.
+#### The above command deletes all the previous data and add new data to the database.
 To append the new data in the database. Use this command:
 <pre>python manage.py populate_database 10 --append</pre>
 This will not delete the previously added data.<br><br>
