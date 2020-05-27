@@ -17,7 +17,10 @@ This will add 10 values in the Users model. For each user program will create 3 
 #### The above command deletes all the previous data and add new data to the database.
 To append the new data in the database. Use this command:
 <pre>python manage.py populate_database 10 --append</pre>
-This will not delete the previously added data.<br><br>
+This will not delete the previously added data.<br>
+To run the application on localhost type following command.<br>
+<pre>python manage.py runserver</pre>
+The app is now hosted on your machine.<br><br>
 ### For Localhost
 To get all the data stored in the Database in the json, use following API with get request.
 <pre>http://127.0.0.1:8000/data/getdata/</pre>
